@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans+HK&display=swap');
+
+/*Removing ugly borders*/
+
+body,
+h1 {
+    margin: 0;
+}
+
+
+/* Fonts, color + size of texts*/
+
+h1,
+p,
+a,
+h3,
+h4 {
+    font-family: 'Noto Sans HK', sans-serif;
+    color: whitesmoke;
+}
+
+h3 {
+    font-weight: 1400;
+}
+
+
+/*Wrapper setup for sticky footer*/
+
+#wrapper {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*header + body background + Title height+ color*/
+
+body {
+    background-image: linear-gradient(to top left, #778beb, #f8a5c2);
+    height: 100%;
+}
+
+header {
+    background-image: linear-gradient(to bottom right, #778beb, #f8a5c2);
+}
+
+#title {
+    height: 100px;
+}
+
+h1 {
+    font-size: 4em;
+    color: whitesmoke;
+}
+
+
+/* Menu style */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #596275;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+#der {
+    float: right;
+}
+
+li {
+    float: left;
+}
+
+
+/*Main display + content of page */
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: 1;
+}
+
+#content {
+    justify-content: flex-start;
+}
+
+
+/* Style of the quote */
+
+#qsource {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#qsource>h4 {
+    margin-top: 0;
+}
+
+article {
+    width: 20%;
+}
+
+
+/* Footer style */
+
+footer {
+    margin-top: 2vh;
+    height: 4.5vh;
+    display: flex;
+    background-color: #596275;
+    justify-content: space-around;
+    right: 0;
+    left: 0;
+    position: absolute;
+    bottom: 0;
+}
