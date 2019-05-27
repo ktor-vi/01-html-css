@@ -1,0 +1,55 @@
+/*Css stylesheet for index - Victor Philippe*/
+
+/*Background color + global esthetic padding*/
+body{ 
+    padding-left: 7%;
+    background-color: #596275;
+}
+/*CBasic text color*/
+p, tr, td, th, a, ul, li, blockquote{
+    font-family: 'Courier New', Courier, monospace;
+    color: #f3a683;
+}
+
+/*Titles color*/
+h1,h3{
+    font-family: 'Courier New', Courier, monospace;
+    color:#f7d794;
+}
+
+/*Link styles : */ 
+a{
+    text-decoration: none;
+}
+a:link, a:active{
+    color : #cf6a87;
+    }
+    a:visited{
+        color : #778beb;
+    }
+
+/*Table styling*/ 
+table {
+    border-collapse: collapse;
+    
+}
+table, th, td{
+    border: 1px solid;
+    border-color: #778beb;
+}
+
+
+td{
+    padding-top: 1%;
+    padding-left: 1%;
+}
+.der{
+    padding:1%;
+    padding-top: 2%;
+    padding-right: 3%;
+    text-align: left;
+    width: 10%;
+}
+
+
+
