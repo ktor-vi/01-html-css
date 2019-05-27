@@ -14,7 +14,8 @@ h1,
 p,
 a,
 h3,
-h4 {
+h4,
+h5 {
     font-family: 'Noto Sans HK', sans-serif;
     color: whitesmoke;
 }
@@ -93,6 +94,7 @@ main {
 
 #content {
     justify-content: flex-start;
+    padding-left: 3%;
 }
 
 
@@ -110,7 +112,24 @@ main {
     text-decoration: none;
 }
 
+
+/*Padding for video*/
+
 article {
+    width: 20%;
+}
+
+iframe {
+    padding-bottom: 3%;
+}
+
+h5 {
+    margin-left: 3%;
+    margin-top: 0;
+    padding-bottom: 2%;
+}
+
+aside {
     width: 20%;
 }
 
@@ -119,7 +138,7 @@ article {
 
 footer {
     margin-top: 2vh;
-    height: 4.5vh;
+    height: 4vh;
     display: flex;
     background-color: #596275;
     justify-content: space-around;
@@ -127,4 +146,5 @@ footer {
     left: 0;
     position: absolute;
     bottom: 0;
+    align-items: center;
 }
