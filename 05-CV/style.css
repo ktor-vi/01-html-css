@@ -1,65 +1,88 @@
-                                                h1,
-                                            h3,
-                                            h4,
-                                            p {
-                                                font-family: 'Raleway', sans-serif;
-                                                color: #2d3436;
-                                            }
-                                            
-                                            body {
-                                                padding-left: 20%;
-                                                padding-right: 20%;
-                                                background-image: linear-gradient(to bottom, #dfe6e9, #b2bec3)
-                                            }
-                                            
-                                            #wrapper {
-                                                display: flex;
-                                                flex-direction: column;
-                                                min-height: 100vh;
-                                                margin-bottom: 10%;
-                                            }
-                                            
-                                            header {
-                                                display: flex;
-                                                flex-direction: row;
-                                                justify-content: space-between;
-                                            }
-                                            
-                                            img {
-                                                border-radius: 50%
-                                            }
-                                            
-                                            #info {
-                                                /* float: left; */
-                                                display: flex;
-                                                justify-content: flex-start;
-                                            }
-                                            
-                                            #pic {
-                                                /* float: right; */
-                                                display: flex;
-                                                justify-content: flex-end;
-                                            }
-                                            
-                                            .bigbox {
-                                                display: flex;
-                                                flex-direction: column;
-                                            }
-                                            
-                                            .content {
-                                                display: flex;
-                                                flex-direction: row;
-                                                justify-content: space-between;
-                                            }
-                                            
-                                            .exp {
-                                                width: 70%
-                                            }
-                                            
-                                            hr {
-                                                display: block;
-                                                height: 1px;
-                                                border: 0;
-                                                border-top: 1px solid #2d3436;
-                                                margin: 1em 0;
-                                                padding: 0;
+    h1,
+    h3,
+    h4,
+    p {
+        font-family: 'Raleway', sans-serif;
+        color: #2d3436;
+    }
+    
+    h3 {
+        font-size: 1.7em;
+    }
+    
+    h1 {
+        font-size: 3em;
+    }
+    
+    p {
+        font-size: 1.4em;
+    }
+    
+    body {
+        padding-left: 20%;
+        padding-right: 20%;
+        background-image: linear-gradient(to bottom, #dfe6e9, #b2bec3)
+    }
+    
+    #wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+        margin-bottom: 10%;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    img {
+        border-radius: 50%
+    }
+    
+    #info {
+        /* float: left; */
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    #pic {
+        /* float: right; */
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .bigbox {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1%;
+    }
+    
+    .content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    
+    .exp {
+        width: 70%
+    }
+    
+    hr {
+        display: block;
+        height: 1px;
+        border: 0;
+        border-top: 1px solid #2d3436;
+        margin: 1em 0;
+        padding: 0;
+    }
+    
+    #bigline {
+        display: block;
+        height: px;
+        border: 0;
+        border-top: 3px solid #2d3436;
+        margin: 1em 0;
+        padding: 0;
+    }
