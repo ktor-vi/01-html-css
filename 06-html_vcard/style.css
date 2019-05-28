@@ -1,0 +1,127 @@
+h1,
+h3,
+h4,
+p,
+a {
+    font-family: 'Titillium Web', sans-serif;
+    color: black;
+}
+
+h1 {
+    font-size: 6.7em;
+    margin-bottom: 0%;
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 4em;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+h4 {
+    font-size: 2.5em;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+
+a,
+a:visited,
+a:active {
+    text-decoration: none;
+    font-size: 3em;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#vcard {
+    width: 71.42vw;
+    height: 40vw;
+    border-radius: 30px 100px;
+    margin: 0.5vw auto;
+    background: red;
+}
+
+#top {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#info {
+    padding-left: 3%;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* align-items: center; */
+}
+
+#pic {
+    height: 100%;
+    padding-top: 2%;
+    padding-right: 4%;
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#pic>img {
+    border-radius: 50%;
+}
+
+#bottom {
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link {
+    padding-left: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#links {
+    height: 100%;
+    width: 20%;
+    margin-right: 7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#github {
+    margin-right: 10%;
+}
+
+.link>img {
+    border-radius: 50%;
+    background-color: whitesmoke;
+    margin-right: 5%;
+}
+
+#qr {}
+
+#qrimg {
+    border-radius: 10%;
+    margin-left: 10%;
+}
