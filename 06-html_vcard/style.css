@@ -1,9 +1,11 @@
+/* Fonts and sizes */
+
 h1,
 h3,
 h4,
 p,
 a {
-    font-family: 'Titillium Web', sans-serif;
+    font-family: 'Muli', sans-serif;
     color: black;
 }
 
@@ -25,6 +27,13 @@ h4 {
     margin-bottom: 0%;
 }
 
+p {
+    font-size: 2.3em;
+}
+
+
+/* Links styling */
+
 a,
 a:visited,
 a:active {
@@ -38,10 +47,29 @@ a:hover {
     text-decoration-line: underline;
 }
 
+
+/* Container and base of vcardsetup */
+
+* {
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to top, #2C3A47, #6D214F);
+    position: relative;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
 #container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-content: center;
+    position: absolute;
+    bottom: 0;
+    min-height: 100%;
+    min-width: 100%;
 }
 
 #vcard {
@@ -49,8 +77,11 @@ a:hover {
     height: 40vw;
     border-radius: 30px 100px;
     margin: 0.5vw auto;
-    background: red;
+    background: #CAD3C8;
 }
+
+
+/* Top of vCard */
 
 #top {
     height: 50%;
@@ -83,6 +114,9 @@ a:hover {
     border-radius: 50%;
 }
 
+
+/* Bottom of vCard */
+
 #bottom {
     height: 50%;
     width: 100%;
@@ -90,13 +124,21 @@ a:hover {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    ;
 }
 
 .link {
-    padding-left: 3%;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+#quote {
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
 }
 
 #links {
@@ -109,17 +151,20 @@ a:hover {
     align-items: flex-start;
 }
 
-#github {
-    margin-right: 10%;
+.link a {
+    display: flex;
+    flex-direction: row;
 }
 
 .link>img {
     border-radius: 50%;
     background-color: whitesmoke;
-    margin-right: 5%;
 }
 
-#qr {}
+#qr {
+    display: flex;
+    justify-content: flex-start;
+}
 
 #qrimg {
     border-radius: 10%;
