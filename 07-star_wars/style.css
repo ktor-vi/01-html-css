@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+}
+
+h1, p {
+  font-family: 'Ramabhadra', sans-serif;
+  font-size: 1.5em;
+
+  text-align: justify;
+}
+
+body {
+  position: relative;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-image: url('img/stars.jpeg');
+}
+
+#wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+
+#textcontent {
+  position: relative;
+}
+
+#text:after {
+  position: absolute;
+  content: ' ';
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 80%;
+  background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%, transparent 100%);
+}
+
+#text {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  color: gold;
+  -webkit-transform-origin: 50% 100%;
+  transform: perspective(300px) rotateX(25deg);
+  font-size: 2em;
+  animation: scroll linear 20s infinite;
+}
+
+@keyframes scroll {
+  0% {
+    top: 100%;
+  }
+
+  100% {
+    top: -170%;
+  }
